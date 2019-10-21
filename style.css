@@ -7,22 +7,22 @@ body {
     font-size: 50px;
   }
 #navbar {
+  position: absolute;
   list-style-type: none;
-  position: fixed;
   width: 100%;
   top: 0;
   margin: 0;
   padding: 0;
-  background-color: #85CDCA;
+  background-color: #7DC2AD;
 }
 li.nav {
-
   float: left;
   font-family: Arial, Helvetica, sans-serif;
   padding: 20px;
   font-size: 20px;
 }
 li a {
+  border-radius: 4px;
   display: block;
   padding: 20px;
   color: white;
@@ -36,9 +36,12 @@ li a {
  margin: 5px
 }
 li a:hover {
-  background-color: #ebca40;
+  background-color: #4e7a6d;
 }
 a {
   color: white;
   text-decoration: underlined;
+}
+p {
+  font-size: 20px;
 }
