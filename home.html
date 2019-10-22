@@ -3,13 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>my travel blog - home</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <ul style="list-style-type: none;" id="navbar">
       <li id="title" class="nav"><strong>my travels</strong></li>
       <li class="nav"><a href="home.html">home</a></li>
-      <li class="nav"><a href="index.html">posts</a></li>
+      <div class="dropdown">
+        <button class="dropbtn"><a href="index.html">posts</a> <i class="fa fa-caret-down"></i></button>
+        <div class="dropdowncontent">
+          <a href="paris.html">paris</a>
+          <a href="#">cairo</a>
+          <a href="#">london</a>
+        </div>
+      </div>
       <li class="nav"><a href="about.html">about</a></li>
       <li class="nav"><a href="contact.html">contact</a></li>
       </ul>

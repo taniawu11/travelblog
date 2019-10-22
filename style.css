@@ -29,11 +29,11 @@ li a {
   text-decoration: none;
   display: in-line block;
  border: none;
- width: 100px;
+ width: 75px;
  text-align: center;
  cursor: pointer;
  transition: all 0.5s;
- margin: 5px
+ margin: 5px;
 }
 li a:hover {
   background-color: #4e7a6d;
@@ -44,4 +44,56 @@ a {
 }
 p {
   font-size: 20px;
+}
+button:hover {
+  background-color:  #4e7a6d;
+}
+button {
+  width: 100px;
+  margin-top: 25px;
+  font-size: 20px;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 4px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  display: block;
+ border: none;
+ text-align: center;
+ cursor: pointer;
+ transition: all 0.5s;
+ height: 60px;
+ background-color: #7DC2AD;
+}
+button a {
+  width: 100px;
+  text-decoration: none;
+}
+.dropdown {
+  overflow: hidden;
+  float: left;
+}
+.dropdowncontent {
+  display: none;
+position: absolute;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+.dropdowncontent a {
+float: none;
+color: white;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+background-color: #7DC2AD;
+transition: all 0.5s;
+}
+.dropdown:hover .dropdowncontent {
+  display: block;
+}
+.dropdown a:hover {
+  background-color:  #4e7a6d;
 }
